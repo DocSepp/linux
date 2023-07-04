@@ -59,6 +59,8 @@ source "drivers/input/Kconfig"
 
 source "drivers/char/Kconfig"
 
+source "drivers/my_rust_driver/Kconfig"
+
 source "drivers/i2c/Kconfig"
 
 source "drivers/i3c/Kconfig"

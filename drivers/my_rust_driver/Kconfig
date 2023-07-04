@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: GPL-2.0-only
+
+menuconfig MY_RUST_DRIVER
+    tristate "my_rust_driver"
+    depends on RUST
+    help
+      A custom character device driver written in Rust
+      that prints a hello message on use.

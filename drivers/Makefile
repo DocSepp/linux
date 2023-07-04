@@ -61,6 +61,9 @@ obj-$(CONFIG_RESET_CONTROLLER)	+= reset/
 obj-y				+= tty/
 obj-y				+= char/
 
+# My custom Rust character device driver
+obj-$(CONFIG_MY_RUST_DRIVER)	+= my_rust_driver/
+
 # iommu/ comes before gpu as gpu are using iommu controllers
 obj-y				+= iommu/
 
